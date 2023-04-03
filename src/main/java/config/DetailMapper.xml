@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper 
+ 	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ 	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cafedetail">
+<resultMap type="dto.DetailDTO" id="PostFile1">
+<result column="GUID" property="guId"/>
+<result column="CAFENAME" property="cafeName"/>
+<result column="CAFEADDRESS" property="cafeAddress"/>
+<result column="CAFEURL" property="cafePhoto"/>
+<result column="CAFEKEYWORD" property="category"/>
+<result column="CAFETIME" property="cafetime"/>
+<result column="CAFEPHONE" property="cafephone"/>
+<result column="CAFESTAR" property="cafestar"/>
+</resultMap>
+
+<!-- 카페정보등록 -->
+
+
+<select id="cat2" parameterType="string" resultMap="PostFile1" > 
+SELECT *
+FROM CAFE_CATEGORY
+WHERE GUID=#{guId}
+</select>
+
+</mapper>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="boardreplyMapper">
+
+	<!-- 댓글 조회 -->
+	<select id="readReply" resultType="dto.BoardreplyDTO" parameterType="int">
+		SELECT
+		RNO, CONTENT, memberId,
+		REGDATE
+		FROM board_reply
+		WHERE BNO = #{bno}
+	</select>
+
+	<!-- 댓글 작성 -->
+	<insert id="writeReply" parameterType="dto.BoardreplyDTO">
+		insert into board_reply(
+		BNO,RNO,CONTENT,memberId)
+		values( #{bno} ,board_reply_seq.NEXTVAL, #{content},#{memberId})
+
+
+	</insert>
+	<!-- 댓글 수정 -->
+	<update id="updateReply" parameterType="dto.BoardreplyDTO">
+		update board_reply
+		set content =#{content}
+		where RNO=#{rno}
+
+	</update>
+	<!-- 댓글 삭제 -->
+	<delete id="deleteReply" parameterType="dto.BoardreplyDTO">
+		delete from board_reply
+		where RNO=#{rno}
+
+	</delete>
+	<select id="selectReply" resultType="dto.BoardreplyDTO">
+		select
+		BNO,RNO,CONTENT,memberId,REGDATE
+		from board_reply
+		where RNO=#{rno}
+
+
+	</select>
+
+</mapper>

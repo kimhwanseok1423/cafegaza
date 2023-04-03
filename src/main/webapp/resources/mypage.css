@@ -1,0 +1,196 @@
+html {
+	width: 100%;
+	height: 100%;
+	font-family: "Nanum Gothic", sans-serif;
+	background-color: ivory;
+}
+
+#wrap {
+	width: 100%;
+	height: 1500px;
+	margin: 20px auto;
+}
+
+/* header */
+header {
+	background-color: ivory;
+	width: 100%;
+	height: 240px;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+/* header logo */
+.header_logo {
+	width: 100%;
+	height: 150px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.header_logo img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/*user agent stylesheet 제거*/
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+/*====================================================================*/
+
+/* section */
+.section {
+	padding: 50px 0 50px 0;
+	width: 1200px;
+	height: 800px;
+	margin: auto; /* 가로 가운데 정렬 */
+}
+
+/* section 1. cafe photo(top_left) */
+.top_left {
+	width: 400px;
+	height: 800px;
+	float: left;
+}
+
+.top_left img {
+	width: 400px;
+	text-align: center;
+	border: 2px solid black;
+	padding: 2px;
+}
+
+/* section 2. cafe information(right_top) */
+.right_top {
+	width: 800px;
+	height: 400px;
+	float: left;
+}
+
+#cafe_name_icon {
+	padding-left: 60px;
+	width: 50px;
+	height: 50px;
+}
+
+.cafe_name {
+	font-size: 40px;
+	font-weight: 700; /* 글자 굵게 */
+	margin-left: 10px;
+}
+
+.like {
+	float: right;
+	margin-right: 50px;
+}
+
+#heart {
+	color: red;
+}
+
+.cafe_info {
+	padding: 20px 50px 0px 50px;
+	width: 700px;
+	height: 300px;
+}
+
+.cafe_info ul {
+	padding: 30px;
+	list-style-type: none;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.cafe_info ul li {
+	line-height: 50px;
+	font-size: 30px;
+}
+
+#info_icon {
+	width: 30px;
+	height: 30px;
+}
+
+#star-point {
+	font-weight: 700;
+	font-size: 30px;
+	color: #535968;
+	line-height: 20px;
+	background: url(https://cdn.pillyze.io/web/img/star-icon.webp) left 2px
+		no-repeat;
+	background-size: 25px 25px;
+	padding-left: 35px;
+	height: 40px;
+	margin-top: 10px;
+}
+
+/* right_bottom */
+.right_bottom {
+	padding: 0 50px 50px 50px;
+	width: 700px;
+	height: 700px;
+	float: left;
+}
+
+.review_section {
+	padding: 30px;
+	height: 400px;
+	margin: auto;
+	overflow: auto;
+}
+
+.review_section::-webkit-scrollbar {
+	display: none; /*스크롤바 투명*/
+}
+
+.reply_button_wrap {
+	width: 700px;
+	height: 20px;
+	float: right;
+	text-align: right;
+}
+
+li p {
+	font-size: 15px;
+}
+
+.reply_writer {
+	font-weight: 700;
+}
+
+.reply_date {
+	text-align: right;
+}
+
+.reply_subject {
+	padding: 50px 0 50px 0;
+	height: 40px;
+	width: 700px;
+	text-align: center;
+	border: 1px solid black;
+}
+
+#content {
+	width: 550px;
+}
+
+button {
+	border: 1px solid tan;
+	background-color: tan;
+	color: white;
+	border-radius: 10%;
+}
+
+button:hover {
+	background-color: ivory;
+	color: tan;
+}
+
+#reply_submit {
+	margin: 20px 20px 0 0;
+	float: right;
+}
+/*====================================================================*/

@@ -1,0 +1,201 @@
+html {
+	background-color: ivory;
+	font-family: "Nanum Gothic", sans-serif;
+}
+
+html::-webkit-scrollbar {
+	display: none; /*스크롤바 투명*/
+}
+
+#root {
+	width: 100%;
+	height: 800px;
+	margin: auto;
+}
+
+header p {
+	/* padding-top: 50px; */
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#board_title {
+	margin-top: 10px;
+	width: 100px;
+	height: 100px;
+}
+
+/*user agent stylesheet 제거*/
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+/*==========================================*/
+#container {
+	width: 100%;
+	margin: auto;
+	border-top: 1px solid gray;
+}
+
+/* 글 작성자, 제목, 내용 부분*/
+.title {
+	width: 800px;
+	margin: auto;
+	border-bottom: 1px solid gray;
+	text-align: center;
+	font-size: 25px;
+	font-weight: 600;
+}
+
+.writer {
+	width: 780px;
+	margin: auto;
+	border-bottom: 1px solid gray;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 500;
+	padding: 10px;
+}
+
+.content {
+	width: 800px;
+	margin: auto;
+}
+
+textarea {
+	background-color: ivory;
+	width: 700px;
+	height: 400px;
+	margin: auto;
+	padding: 50px;
+	border: none;
+	resize: none;
+	font-size: 18px;
+	font-family: "Nanum Gothic", sans-serif;
+}
+
+/*textarea 스트롤바 설정*/
+textarea:focus {
+	outline: none; /*클릭시 아웃라인 안 뜨게*/
+}
+
+/*스크롤바 CSS*/
+textarea::-webkit-scrollbar {
+	width: 5px; /* 스크롤바의 너비 */
+}
+
+textarea::-webkit-scrollbar-thumb {
+	height: 10%; /* 스크롤바의 길이 */
+	background: rgba(100, 100, 100, 0.589); /* 스크롤바의 색상 */
+	border-radius: 10px;
+}
+
+textarea::-webkit-scrollbar-track {
+	background: ivory; /*스크롤바 뒷 배경 색상*/
+}
+
+.content_button {
+	width: 800px;
+	height: 80px;
+	margin: auto;
+	border-top: 1px solid gray;
+}
+
+.content_button button {
+	margin: 20px 0 20px 10px;
+	font-family: "Nanum Gothic", sans-serif;
+	font-size: 15px;
+	background-color: ivory;
+	border: 1px solid black;
+	border-radius: 50%;
+	padding: 5px;
+	float: right;
+}
+
+.content_button button:hover {
+	background-color: ivory;
+	border: 1px solid tan;
+	color: tan;
+}
+
+/*==========================================*/
+/* 댓글 부분 */
+.form-horizontal {
+	border: 1px solid gray;
+	width: 700px;
+	height: 100px;
+	padding: 50px;
+	margin: auto;
+	overflow: auto;
+	width: 700px;
+	width: 700px;
+}
+
+.reply_writer {
+	padding-right: 20px;
+}
+
+.form_content {
+	margin-top: 10px;
+	width: 700px;
+	height: 50px;
+}
+
+.replyWriteBtn {
+	margin: 20px 0 20px 10px;
+	font-family: "Nanum Gothic", sans-serif;
+	font-size: 15px;
+	background-color: ivory;
+	border: 1px solid black;
+	border-radius: 50%;
+	padding: 5px;
+	float: right;
+}
+
+#reply {
+	padding-top: 50px;
+	width: 700px;
+	height: 100%;
+	margin: auto;
+	overflow: auto;
+}
+
+#reply::-webkit-scrollbar-track {
+	background: none;
+}
+
+.replyList li {
+	list-style-type: none;
+}
+
+.replyList li p {
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.reply_button {
+	width: 650px;
+	height: 50px;
+	border-bottom: 1px solid gray;
+}
+
+.reply_button button {
+	margin: 20px 0 20px 10px;
+	font-family: "Nanum Gothic", sans-serif;
+	font-size: 15px;
+	background-color: ivory;
+	border: 1px solid black;
+	border-radius: 50%;
+	padding: 5px;
+	float: right;
+}
+
+.reply_button button:hover {
+	background-color: ivory;
+	border: 1px solid tan;
+	color: tan;
+}
+
+/* =============================================== */

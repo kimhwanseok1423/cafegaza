@@ -1,0 +1,166 @@
+html {
+	width: 100%;
+	height: 100%;
+	font-family: "Nanum Gothic", sans-serif;
+	background-color: ivory;
+}
+
+.wrap {
+	width: 100%;
+	height: 100%;
+	margin: 20px auto;
+}
+
+header {
+	background-color: ivory;
+	width: 100%;
+	height: 240px;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+.section {
+	padding-top: 20px;
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+
+.left_section {
+	width: 300px;
+	text-align: center;
+	text-decoration-line: none;
+	float: left;
+}
+
+.right_side {
+	position: relative;
+	float: left;
+	width: 600px;
+	background-color: ivory;
+	border-left: 1px solid black;
+	position: relative;
+}
+/*===================== header =====================*/
+
+/* header logo */
+.header_logo {
+	width: 100%;
+	height: 150px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.header_logo img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/*==================================================*/
+
+/*===================== section ====================*/
+
+/* SECTION */
+
+/* SECTION: left section */
+.mypage_list {
+	width: 250px;
+	height: 100%;
+	text-decoration: none;
+	list-style-type: none;
+	text-align: left;
+	font-size: 25px;
+	margin: auto;
+	padding: 30px;
+}
+
+.left_section img {
+	width: 250px;
+	height: 250px;
+}
+
+.left_section p {
+	font-size: 35px;
+}
+
+#ml {
+	text-decoration-line: none;
+	color: black;
+	margin-left: 25px;
+	padding-left: 10px;
+	line-height: 2;
+	border-left: 5px solid black;
+}
+
+#ml:hover {
+	color: gray;
+}
+
+#ml2 {
+	text-decoration-line: none;
+	color: black;
+	margin-left: 25px;
+	padding-left: 10px;
+	line-height: 2;
+	border-left: 5px solid black;
+}
+
+#ml2:hover {
+	color: gray;
+}
+
+/* SECTION: right side */
+#user_delete {
+	/*img*/
+	height: 40px;
+	padding-left: 50px;
+}
+
+.right_side li {
+	list-style-type: none;
+	padding-left: 70px;
+	font-size: 20px;
+}
+
+/* SECTION 2. RIGHT SIDE - 회원 탈퇴 */
+form {
+	width: 480px;
+	height: 284px;
+	padding: 40px 0 30px 50px;
+	font-size: 17px;
+	font-weight: 700;
+}
+
+.delete_info {
+	padding: 10px;
+}
+
+.control-label {
+	font-size: 17px;
+	padding: 5px;
+}
+
+.form-control {
+	float: right;
+	margin-right: 200px;
+}
+
+.buttons {
+	margin: 10px;
+	float: right;
+}
+
+button {
+	max-width: 100%;
+	height: 30px;
+	font-size: 20px;
+	color: ivory;
+	background-color: black;
+	border: none;
+	border-radius: 10%;
+	font-family: "Nanum Gothic", sans-serif;
+}
+/*==================================================*/

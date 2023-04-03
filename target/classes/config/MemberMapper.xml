@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace="MemberMapper">
+  	<insert id="memberJoin" parameterType="dto.MemberDTO">
+  		insert into cafe_member values(#{memberId}, #{memberPw}, #{memberName},#{memberAge}, #{memberMail}, #{memberAddr1}, #{memberAddr2}, #{memberAddr3}, 0, sysdate )
+
+  	</insert>
+  	
+  	
+  	
+  	<!-- 로그인 구현하기 -->
+      <select id="memberLogin" resultType="dto.MemberDTO">
+      
+         select memberId, memberName, adminCk,memberPw from cafe_member where memberId = #{memberId} and memberPw = #{memberPw}
+     
+      </select>
+      
+      <!-- 아이디 중복검사 -->
+  	<select id="idCheck" resultType="int">
+  	
+  		select count(*) from cafe_member where memberId = #{memberId}
+  	
+  	</select>
+  	
+  	
+  	
+  	<!--  회원 정보 수정 -->
+  	<update id="memberCheck" parameterType="dto.MemberDTO">
+  	update cafe_member 
+  	set memberId =#{memberId}, 
+  	memberPw=#{memberPw},
+  	memberName= #{memberName},
+  	memberAge=#{memberAge}, 
+  	memberMail=#{memberMail}, 
+  	memberAddr1=#{memberAddr1}
+  	where memberId=#{memberId}
+  	</update> 
+  	
+  	<!--  회원탈퇴기능  -->
+  	<delete id="memberDelete" parameterType="dto.MemberDTO">
+  	DELETE FROM cafe_member
+  	where memberId=#{memberId}
+  	And memberPw=#{memberPw}</delete>
+  </mapper>

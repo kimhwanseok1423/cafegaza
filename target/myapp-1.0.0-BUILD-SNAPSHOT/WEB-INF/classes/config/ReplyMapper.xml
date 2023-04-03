@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace="ReplyMapper">
+  
+  <!-- 댓글등록 -->
+     <select id="readReply1" resultType="dto.ReplyDTO" parameterType="String">
+     select RNO,CONTENT,REGDATE,memberId
+     FROM cafe_reply
+     WHERE GUID=#{guId}
+    
+     </select>     
+     
+     <insert id="writeReply" parameterType="dto.ReplyDTO">
+INSERT INTO cafe_reply(
+     GUID
+   , RNO
+   , CONTENT
+    
+   , memberId
+)
+VALUES(    #{guId}
+   , cafe_reply_SEQ.NEXTVAL
+   , #{content}
+   
+   ,#{memberId}  )
+</insert>
+  <delete id="deleteReply" parameterType="int">
+  
+  delete from cafe_reply
+  where RNO=#{rno} 
+  
+  </delete>
+  </mapper>

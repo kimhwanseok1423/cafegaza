@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper 
+ 	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ 	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cafecategory">
+<resultMap type="dto.CategoryDTO" id="PostFile1">
+<result column="GUID" property="guId"/>
+<result column="CAFENAME" property="cafeName"/>
+<result column="CAFEADDRESS" property="cafeAddress"/>
+<result column="CAFEURL" property="cafePhoto"/>
+<result column="CAFEKEYWORD" property="category"/>
+<result column="CAFETIME" property="cafetime"/>
+<result column="CAFEPHONE" property="catephone"/>
+<result column="CAFESTAR" property="catestar"/>
+</resultMap>
+
+<!-- 카페정보등록 -->
+
+<select id="cat" parameterType="string" resultType="dto.CategoryDTO" resultMap="PostFile1"> 
+SELECT GUID,CAFEURL,CAFEADDRESS,CAFENAME,CAFEKEYWORD,CAFESTAR
+FROM CAFE_CATEGORY
+WHERE CAFEKEYWORD LIKE '%' || #{category} || '%' 
+</select>
+
+
+</mapper>

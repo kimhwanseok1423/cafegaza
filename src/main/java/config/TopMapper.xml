@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace="cafe">
+  	<resultMap type="dto.TopDTO" id="PostFile">
+  		<result property="num" column="d_num"/>
+  		<result property="cafeurl" column="d_caurl"/>
+  		<result property="cafelocation" column="d_location"/>
+  		<result property="cafename" column="d_caname"/>
+  	</resultMap>
+  
+  <!-- 카페정보등록 -->
+  	<select id="cafetop1" parameterType="string"    resultMap="PostFile"> 
+  	select d_num,d_caurl,d_location,d_caname 
+  	FROM data where d_age=#{age}
+  	</select>
+  	
+  
+  </mapper>

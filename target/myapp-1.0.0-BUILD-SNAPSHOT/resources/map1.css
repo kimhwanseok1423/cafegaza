@@ -1,0 +1,431 @@
+html {
+	width: 100%;
+	height: 100%;
+	font-family: "Nanum Gothic", sans-serif;
+	background-color: ivory;
+}
+
+.wrap {
+	width: 100%;
+	height: 100%;
+	margin: 20px auto;
+}
+
+/*===================== header =====================*/
+header {
+	background-color: ivory;
+	width: 100%;
+	height: 240px;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+/* header logo */
+.header_logo {
+	width: 100%;
+	height: 150px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.header_logo img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/* =============================================== */
+/* CONTENTS */
+.section {
+	width: 1200px;
+	height: 1000px;
+	margin: auto; /* 가로 가운데 정렬 */
+}
+
+.section_top {
+	width: 1200px;
+	height: 800px;
+	float: left;
+	margin: auto;
+	border-bottom: 1px solid black;
+	padding-bottom: 50px;
+}
+
+.section_bottom {
+	width: 1200px;
+	height: 500px;
+	float: left;
+	padding-bottom: 230px;
+}
+
+#cate_img {
+	text-align: center;
+	font-weight: bolder;
+	text-align: left;
+	border-bottom: 1px solid black;
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+#cate_img img {
+	padding-bottom: 30px;
+	height: 40px;
+}
+
+/* CONTENTS_TOP(지도) */
+.map_wrap * {
+	margin: 0;
+	padding: 0;
+	font-family: "Malgun Gothic", dotum, " 뜝 럥利삣뜝 룞 삕", sans-serif;
+	font-size: 12px;
+}
+
+.map_wrap a, .map_wrap a:hover, .map_wrap a:active {
+	color: #000;
+	text-decoration: none;
+}
+
+.map_wrap {
+	position: relative;
+	width: 80%;
+	height: 500px;
+	background-color: rgb(228, 228, 242);
+	margin: auto; /* 가로 가운데 정렬 */
+	padding: 2px;
+	font-family: "Malgun Gothic", dotum, " 뜝 럥利삣뜝 룞 삕", sans-serif;
+	font-size: 12px;
+	border: 2px solid black;
+}
+
+#menu_wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 250px;
+	margin: 10px 0 30px 10px;
+	padding: 5px;
+	overflow-y: auto;
+	background: rgba(255, 255, 255, 0.7);
+	z-index: 1;
+	font-size: 12px;
+	border-radius: 10px;
+}
+
+.bg_white {
+	background: #fff;
+}
+
+#menu_wrap hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 2px solid #5f5f5f;
+	margin: 3px 0;
+}
+
+#menu_wrap .option {
+	text-align: center;
+}
+
+#menu_wrap .option p {
+	margin: 10px 0;
+}
+
+#menu_wrap .option button {
+	margin-left: 5px;
+}
+
+#placesList li {
+	list-style: none;
+}
+
+#placesList .item {
+	position: relative;
+	border-bottom: 1px solid #888;
+	cursor: pointer;
+	min-height: 65px;
+}
+
+#placesList .item span {
+	display: block;
+	margin-top: 4px;
+}
+
+#placesList .item h5, #placesList .item .info {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+#placesList .item .info {
+	padding: 10px 0 10px 55px;
+}
+
+#placesList .info .gray {
+	color: #8a8a8a;
+}
+
+#placesList .info .jibun {
+	padding-left: 26px;
+	background:
+		url(http://i1.daumcdn.net/localimg/localimages/07/mapapidoc/places_jibun.png)
+		no-repeat;
+}
+
+#placesList .info .tel {
+	color: #009900;
+}
+
+#placesList .item .markerbg {
+	float: left;
+	position: absolute;
+	width: 36px;
+	height: 37px;
+	margin: 10px 0 0 10px;
+}
+
+#pagination {
+	margin: 10px auto;
+	text-align: center;
+}
+
+#pagination a {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+#pagination .on {
+	font-weight: bold;
+	cursor: default;
+	color: #777;
+}
+
+/*  繞벿살뒩 逾   뜝 럥裕욅뇖 궠 샍 逾   솻洹⑥삕 뜝 럩 꼶 css */
+.radius_border {
+	border: 1px solid #919191;
+	border-radius: 5px;
+}
+
+.custom_typecontrol {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	overflow: hidden;
+	width: 130px;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	z-index: 1;
+	font-size: 12px;
+	font-family: "Malgun Gothic", "嶺뚮씭理먨뜝    뫁伊볣   ", sans-serif;
+}
+
+.custom_typecontrol span {
+	display: block;
+	width: 65px;
+	height: 30px;
+	float: left;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+}
+
+.custom_typecontrol .btn {
+	background: #fff;
+	background: linear-gradient(#fff, #e6e6e6);
+}
+
+.custom_typecontrol .btn:hover {
+	background: #f5f5f5;
+	background: linear-gradient(#f5f5f5, #e3e3e3);
+}
+
+.custom_typecontrol .btn:active {
+	background: #e6e6e6;
+	background: linear-gradient(#e6e6e6, #fff);
+}
+
+.custom_typecontrol .selected_btn {
+	color: #fff;
+	background: #425470;
+	background: linear-gradient(#425470, #5b6d8a);
+}
+
+.custom_typecontrol .selected_btn:hover {
+	color: #fff;
+}
+
+.custom_zoomcontrol {
+	position: absolute;
+	top: 50px;
+	right: 10px;
+	width: 36px;
+	height: 80px;
+	overflow: hidden;
+	z-index: 1;
+	background-color: #f5f5f5;
+}
+
+.custom_zoomcontrol span {
+	display: block;
+	width: 36px;
+	height: 40px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.custom_zoomcontrol span img {
+	width: 15px;
+	height: 15px;
+	padding: 12px 0;
+	border: none;
+}
+
+.custom_zoomcontrol span:first-child {
+	border-bottom: 1px solid #bfbfbf;
+}
+
+/* =============================================== */
+/* CONTENTS BOTTOM(카테고리 버튼, 카페 리스트) */
+.left_section {
+	width: 500px;
+	height: 600px;
+	float: left;
+	padding-left: 20px;
+}
+
+.cafe_list {
+	width: 500px;
+	height: 608px;
+	overflow: auto;
+	padding: 0 20px 0 20px;
+}
+
+/*스크롤바 CSS*/
+.cafe_list::-webkit-scrollbar {
+	width: 5px; /* 스크롤바의 너비 */
+}
+
+.cafe_list::-webkit-scrollbar-thumb {
+	height: 10%; /* 스크롤바의 길이 */
+	background: black; /* 스크롤바의 색상 */
+	border-radius: 10px;
+}
+
+.cafe_list::-webkit-scrollbar-track {
+	background: ivory; /*스크롤바 뒷 배경 색상*/
+}
+
+/* 카테고리 버튼(왼쪽) */
+.button_list {
+	width: 500px;
+	height: 600px;
+	overflow: auto;
+	margin: auto;
+}
+
+details summary::marker {
+	font-size: 30px;
+	color: peru;
+}
+
+#main_keyword {
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 20px;
+	border: none;
+	background-color: burlywood;
+	font-weight: bolder;
+	color: ivory;
+}
+
+.cate_keyword {
+	list-style-type: none;
+	padding: 10px 0 20px 0;
+}
+
+#sub_keyword {
+	padding: 10px;
+	font-size: 15px;
+	margin: 5px;
+	border-radius: 20px;
+	border: none;
+	background-color: peru;
+	font-weight: normal;
+	color: ivory;
+	cursor: pointer;
+}
+
+#sub_keyword:hover {
+	/* 마우스 올렸을 때 */
+	background-color: rgb(223, 155, 87);
+}
+
+#sub_keyword:focus {
+	background-color: ivory;
+	color: peru;
+	outline-color: peru;
+	outline-style: solid;
+	transition: 0.3s;
+}
+
+/*스크롤바 CSS*/
+.button_list::-webkit-scrollbar {
+	display: none; /*스크롤바 투명*/
+}
+
+/* 카테고리 선택하면 뜨는 카페 리스트(오른쪽) */
+.cafe_list ul {
+	margin: auto;
+	width: 480px;
+	height: 80px;
+	border-bottom: 1px solid #000;
+	padding: 20px 0 20px 0;
+}
+
+.cafe_list ul:first-child {
+	border-top: 1px solid #000;
+}
+
+.cafe_list li {
+	list-style-type: none;
+}
+
+.cafe_list img {
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin: 0 20px 0 30px;
+	overflow: hidden;
+	/* border-radius: 50%; */ /* 사진 동그랗게 */
+	border-radius: 20%;
+	border: 2px solid black;
+	object-fit: cover;
+	/* 가로세로 비율을 유지한 채 사이즈 조절, 비율이 맞지 않더라도 이미지를 확대해 컨테이너를 완전히 채움*/
+}
+
+.cafelist_text {
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+.cafelist_text2 {
+	padding-top: 5px;
+	font-size: 15px;
+}
+
+#star-point {
+	float: left;
+	font-weight: 700;
+	font-size: 20px;
+	color: #535968;
+	line-height: 20px;
+	background: url(https://cdn.pillyze.io/web/img/star-icon.webp) left 2px
+		no-repeat;
+	background-size: 16px 15px;
+	padding-left: 25px;
+	height: 20px;
+	margin-top: 10px;
+}
+
+/* =============================================== */
