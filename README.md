@@ -8,4 +8,4 @@
 ---
 [![카페가자](src/main/webapp/resources/img/CF.png)](https://www.notion.so/b9f1db7a7b3f43d18218d3d2e0cb0f1c)
 
-해당 이미지 클릭시 서비스화면 및 개발방법 확인
+해당 이미지 클릭시 서비스내용 구현화면 및 개발방법 확인가능합니다.
