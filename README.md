@@ -98,22 +98,22 @@
   <summary>다음지도 API 기능  </summary>
 
 - **구현 기능** <br>
-    - API를 
+    - API를 활용한 카페 위치 표현 
 - **구현 방법**<br>
     - 카카오에서 키값을 받아와 api를 활성화
     - 현위치 표현
     - 카페이름 검색시 좌표 표현
     - 구,동 입력시 데이터에 맞는 카페 호출
 
-   <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/캡처12.PNG">
+   <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/캡처13.PNG">
    
 
-    - 위 설정을 통해 main branch일 경우 pipeline script 실행
-
-     <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/캡처12.PNG">
    
 
-     <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/캡처12.PNG">
+     <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/캡처14.PNG">
+   
+
+     <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/캡처15.PNG">
    
 
 </details>
@@ -125,18 +125,32 @@
     - 크롤링을 활용한 데이터분석후 분류한 카테고리에 키워드로 분류함
 
 - **구현 방법**<br>
-    - AJAX를 활용한 키워드를 클릭시 해당함수를 실행시켜 UI에 표현하기
-    - 상세페이지로 이동시 주소,전화번호,별점,영업시간등 정보 표현
-    - 로그인 후에 카페 대한 리뷰 댓글 작성
+   
+    
+   - 크롤링을 활용한 인터넷에 있는 카페 분위기 댓글 키워드를 추출 </br>
+  
 
-      ![image](https://images-ext-2.discordapp.net/external/Task9kTlYJSlh_a_mNV2nvNy2rZXKdt5xoYmzH0f2x8/https/github.com/7th-wanted-pre-onboarding-teamN/sns-feed/assets/86291408/9d24d542-9890-444b-82f6-3b7713eb654a?width=530&height=474)
+        <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/캡처19.PNG">
 
-    - 위 설정을 통해 main branch일 경우 pipeline script 실행
 
-      ![image](https://images-ext-1.discordapp.net/external/XL2q0OO6g1QNTcUUGPyZ77zMCAdGUc6KJ-Z7mglbWcQ/https/github.com/7th-wanted-pre-onboarding-teamN/sns-feed/assets/86291408/5de286e7-05ad-4563-b773-ae615b0030af?width=614&height=542)
+    - AJAX를 활용한 키워드를 클릭시 해당함수를 실행시켜 UI에 표현하기</br>
+      
 
-      ![image](https://images-ext-1.discordapp.net/external/lXYOEDnrmnSxfRpyV6Dg66LeFHO3SWG9YFk-sb_o0Fw/https/github.com/7th-wanted-pre-onboarding-teamN/sns-feed/assets/86291408/f9ec8584-c212-4f34-bbc3-5fbd90a35a36?width=726&height=1056)
+    <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/캡처20.PNG">
+
+- 상세페이지로 이동시 주소,전화번호,별점,영업시간등 정보 표현</br>
+  
+  
+     <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/캡처21.PNG">
+
+
+ - 로그인 후에 카페 대한 리뷰 댓글 작성</br>
+   
+   
+   <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/캡처22.PNG">
+
 
 </details>
+
   ## ERD
    <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/erd1.PNG">
