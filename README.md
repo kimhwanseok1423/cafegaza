@@ -53,16 +53,51 @@
 
 - **구현 방법** <br>
   
-- 계정 중복 확인 -> `UserRepository`조회하여 중복 시 예외 던짐
-
-
-- 로그인 완료시 기능 , 로그인 아닐시 기능 분리 
-    - 사이드바를 통해 회원정보수정 , 자유게시판 , 추천리스트 활성화
-    - 메인 페이지 우측에 회원 이름 표시
+  - 계정 중복 확인 -> `UserRepository`조회하여 중복 시 예외 던짐
+  - 로그인 완료시 기능 , 로그인 아닐시 기능 분리 
+  - 사이드바를 통해 회원정보수정 , 자유게시판 , 추천리스트 활성화
+  - 메인 페이지 우측에 회원 이름 표시
       
-  <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/123123123111.PNG">
+ <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/로그인1.PNG">
 
+ <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/로그인2.PNG">
+
+  <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/로그인3.PNG">
+
+   <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/로그인4.PNG">
 
 </details>
 
+<details>
+  <summary>회원관리기능 (마이페이지  / 자유게시판 / 댓글 )</summary>
 
+  - **구현 기능** <br>
+    - 회원 정보 관리기능을 구현했습니다.
+   
+   **구현 방법** <br>
+
+   - 마이페이지 기능을 추가
+   - 게시판 기능 
+   - 댓글 삭제 , 수정
+
+ <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/로그인1.PNG">
+
+ <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/로그인2.PNG">
+
+  <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/로그인3.PNG">
+
+   <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/로그인4.PNG">
+</details>
+
+
+<details>
+  <summary>통계 기능</summary>
+
+- **구현 기능** <br>
+    - Github push시 Webhook작동
+
+- **구현 방법**<br>
+  ![image](https://images-ext-1.discordapp.net/external/-ocE9N4j4sT8LGgyOQMnI_YlZzqfa8stQdHk-CCYuOM/https/github.com/7th-wanted-pre-onboarding-teamN/sns-feed/assets/86291408/7ea4fccf-5dc3-4396-b86c-075b48107bb9?width=1086&height=1056)
+</details>
+
+  
