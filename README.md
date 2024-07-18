@@ -155,3 +155,4 @@
  <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/erd1.PNG">
 
   ## 영상
+   ## [유튜브 링크](https://www.youtube.com/watch?v=OGwiO6MsiHY)
