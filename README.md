@@ -11,8 +11,8 @@
 - [사용기술](#사용기술)
 - [느낀 점](#느낀-점)
 - [구현 기능](#구현기능)
-- [시스템 구성도](#시스템-구성도)
 - [ERD](#ERD)
+- [영상](#영상)
 
 
 
@@ -71,14 +71,15 @@
 <details>
   <summary>회원관리기능 (마이페이지  / 자유게시판 / 댓글 )</summary>
 
-  - **구현 기능** <br>
-    - 회원 정보 관리기능을 구현했습니다.
-   
-   **구현 방법** <br>
 
-   - 마이페이지 기능을 추가
-   - 게시판 기능 
-   - 댓글 삭제 , 수정
+  - **구현 기능** <br>
+    회원 정보 관리기능을 구현했습니다.
+   
+  - **구현 방법** <br>
+
+    - 마이페이지 기능을 추가
+    - 게시판 기능 
+    - 댓글 삭제 , 수정
 
  <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/캡처9.PNG">
 
@@ -105,7 +106,7 @@
     - 카페이름 검색시 좌표 표현
     - 구,동 입력시 데이터에 맞는 카페 호출
 
-   <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/캡처13.PNG">
+   <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/캡처13.PNG"><br>
    
 
    
@@ -148,9 +149,13 @@
    
    
    <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/캡처22.PNG">
+ - 데이터 랭킹 홍페이지를 크롤링을 통해  연령별 커피 수요 장소 데이터를 이용하여 AJAX로 뿌려줌
 
+     <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/캡처23.PNG">
 
 </details>
 
-  ## ERD
-   <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/erd1.PNG">
+ ## ERD
+ <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/erd1.PNG">
+
+  ## 영상
