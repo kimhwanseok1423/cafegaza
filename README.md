@@ -80,24 +80,63 @@
    - 게시판 기능 
    - 댓글 삭제 , 수정
 
- <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/로그인1.PNG">
+ <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/캡처9.PNG">
 
- <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/로그인2.PNG">
+ <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/캡처9.5.PNG">
 
-  <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/로그인3.PNG">
+  <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/캡처9.6.PNG">
 
-   <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/로그인4.PNG">
+   <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/캡처10.PNG">
+
+<img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/캡처11.PNG">
+
+<img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/캡처12.PNG">
+   
 </details>
-
 
 <details>
-  <summary>통계 기능</summary>
+  <summary>다음지도 API 기능  </summary>
 
 - **구현 기능** <br>
-    - Github push시 Webhook작동
-
+    - API를 
 - **구현 방법**<br>
-  ![image](https://images-ext-1.discordapp.net/external/-ocE9N4j4sT8LGgyOQMnI_YlZzqfa8stQdHk-CCYuOM/https/github.com/7th-wanted-pre-onboarding-teamN/sns-feed/assets/86291408/7ea4fccf-5dc3-4396-b86c-075b48107bb9?width=1086&height=1056)
+    - 카카오에서 키값을 받아와 api를 활성화
+    - 현위치 표현
+    - 카페이름 검색시 좌표 표현
+    - 구,동 입력시 데이터에 맞는 카페 호출
+
+   <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/캡처12.PNG">
+   
+
+    - 위 설정을 통해 main branch일 경우 pipeline script 실행
+
+     <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/캡처12.PNG">
+   
+
+     <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/캡처12.PNG">
+   
+
 </details>
 
-  
+<details>
+  <summary>메인페이지 </summary>
+
+- **구현 기능** <br>
+    - 크롤링을 활용한 데이터분석후 분류한 카테고리에 키워드로 분류함
+
+- **구현 방법**<br>
+    - AJAX를 활용한 키워드를 클릭시 해당함수를 실행시켜 UI에 표현하기
+    - 상세페이지로 이동시 주소,전화번호,별점,영업시간등 정보 표현
+    - 로그인 후에 카페 대한 리뷰 댓글 작성
+
+      ![image](https://images-ext-2.discordapp.net/external/Task9kTlYJSlh_a_mNV2nvNy2rZXKdt5xoYmzH0f2x8/https/github.com/7th-wanted-pre-onboarding-teamN/sns-feed/assets/86291408/9d24d542-9890-444b-82f6-3b7713eb654a?width=530&height=474)
+
+    - 위 설정을 통해 main branch일 경우 pipeline script 실행
+
+      ![image](https://images-ext-1.discordapp.net/external/XL2q0OO6g1QNTcUUGPyZ77zMCAdGUc6KJ-Z7mglbWcQ/https/github.com/7th-wanted-pre-onboarding-teamN/sns-feed/assets/86291408/5de286e7-05ad-4563-b773-ae615b0030af?width=614&height=542)
+
+      ![image](https://images-ext-1.discordapp.net/external/lXYOEDnrmnSxfRpyV6Dg66LeFHO3SWG9YFk-sb_o0Fw/https/github.com/7th-wanted-pre-onboarding-teamN/sns-feed/assets/86291408/f9ec8584-c212-4f34-bbc3-5fbd90a35a36?width=726&height=1056)
+
+</details>
+  ## ERD
+   <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/erd1.PNG">
