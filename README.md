@@ -1,21 +1,17 @@
+[![카페가자](src/main/webapp/resources/img/CF.png)](https://www.notion.so/b9f1db7a7b3f43d18218d3d2e0cb0f1c)
 
-[![카페가자](src/main/webapp/resources/img/CF.png)](https://www.notion.so/b9f1db7a7b3f43d18218d3d2e0cb0f1c)</br>
-(해당 이미지 클릭시 서비스내용 구현화면 및 개발방법 확인가능합니다).
-
-
+(해당 이미지 클릭시 서비스내용 구현화면 및 개발방법 확인 가능합니다).
 
 
 ---
+
 ## 목차
 - [개요](#개요)
 - [사용기술](#사용기술)
 - [느낀 점](#느낀-점)
 - [구현 기능](#구현기능)
-- [ERD](#ERD)
+- [ERD](#erd)
 - [영상](#영상)
-
-
-
 
 
 ## 개요
@@ -106,12 +102,12 @@
     - 카페이름 검색시 좌표 표현
     - 구,동 입력시 데이터에 맞는 카페 호출
 
-   <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/캡처13.PNG"><br>
+   <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/캡처14.PNG"><br>
    
 
    
 
-     <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/캡처14.PNG">
+     <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/캡처13.PNG">
    
 
      <img src="https://github.com/kimhwanseok1423/cafegaza/blob/master/src/main/webapp/resources/img/캡처15.PNG">
